@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url("fontes/idroid.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+    background-color:#84E1AD;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    background-image: linear-gradient(#3CDB83, #2D9E5F, #195B38)
+}
+h1#nome{
+    text-align: center;
+}
+h2#slogan{
+    text-align: center;
+}
+
+nav{
+    text-decoration: none;
+    color: white;
+    margin-left:auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+strong{
+    color:#3CDB83;
+}
